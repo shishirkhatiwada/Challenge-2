@@ -1,0 +1,12 @@
+ button{
+    padding: 10px 25px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background-image: linear-gradient(to right, $LimeGreen, $BrightCyan);
+        &:hover{
+            opacity: 0.8;
+        }
+}
