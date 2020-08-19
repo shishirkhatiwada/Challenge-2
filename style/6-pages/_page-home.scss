@@ -1,0 +1,30 @@
+//styling Hero Section
+.hero{
+    background-color: $VeryLightGray;
+    position: relative;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    z-index: 300;
+
+    .hero__description{
+        width: 40%;
+        
+    }
+    .hero__image{
+        z-index: 300;
+        background-position: top;
+        
+
+        img{
+            object-fit: cover;
+            margin-right: -250px;
+            
+        }
+        
+        
+    }
+
+}
